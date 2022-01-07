@@ -1,0 +1,30 @@
+{
+  "name": "randomchattxt",
+  "version": "1.0.0",
+  "description": "Let's you to connect with strangers on the internet",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABHIJITH-E-A/RandomChat.git"
+  },
+  "keywords": [
+    "Randomchat"
+  ],
+  "author": "Abhijith E A",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ABHIJITH-E-A/RandomChat/issues"
+  },
+  "homepage": "https://github.com/ABHIJITH-E-A/RandomChat#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
